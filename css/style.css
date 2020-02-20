@@ -5,15 +5,20 @@ body {
   line-height: normal;
 }
 h1 {
-  font-size: 2.5em;
+  font-size: 2.7em;
   line-height: 2em
 }
 h3 {
   font-size: 1.2em;
   line-height: normal;
 }
+.author {
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
 p {
   font-size: 100%;
+  margin-bottom: 1em;
 }
 
 nav {
@@ -68,7 +73,12 @@ a {
   text-decoration: none;
 }
 
-a:link { color:#0070BB; } /* link unvisited */
+a:link { color:#ffffff; } /* link unvisited */
 a:visited { color:#ba0070; } /* visited */
-a:hover { color:#ff6a07; } /* mouse over */
+a:hover { color:#ff0000; } /* mouse over */
 a:active { color:#00ba4a; } /* selected */
+
+figcaption {
+  font-size: .95em;
+  width: 70%;
+}
